@@ -2,6 +2,47 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
+
+<style>
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background: #e6d6ca;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* PORTRAIT REEL */
+.reel-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.reel-frame {
+    width: 300px;
+    height: 550px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+</style>
+
 </head>
 
 <body>
@@ -16,9 +57,69 @@
 <div class="section">
 <h1>Portfolio</h1>
 
-<p>Selected work showcasing content strategy, video production and audience growth.</p>
+<p>
+A collection of work showcasing content strategy, influencer marketing, and performance-driven campaigns across global markets.
+</p>
 
-<iframe src="https://www.instagram.com/p/DWMR5DZDSKk/embed" width="100%" height="400"></iframe>
+<!-- WORK GRID -->
+<div class="grid">
+
+<div class="card">
+<h3>Hiked (Bizgurukul)</h3>
+<p>
+Led social media strategy and influencer campaigns targeting Gen-Z audiences.
+Achieved up to 30% growth in engagement, reach, and impressions through performance-driven content.
+</p>
+</div>
+
+<div class="card">
+<h3>Skylarks Charity (UK)</h3>
+<p>
+Developed content for awareness campaigns, enhancing engagement and digital visibility for community initiatives.
+</p>
+</div>
+
+<div class="card">
+<h3>Influencer Growth</h3>
+<p>
+Helped multiple influencers achieve up to 30% increase in engagement, reach, and audience growth through strategic content planning.
+</p>
+</div>
+
+<div class="card">
+<h3>Content & Video Strategy</h3>
+<p>
+Created short-form video content optimised for retention, storytelling, and platform growth across Instagram and digital channels.
+</p>
+</div>
+
+</div>
+
+<!-- REEL -->
+<h2 style="margin-top:50px;">Featured Work</h2>
+
+<div class="reel-container">
+<iframe src="https://www.instagram.com/p/DWMR5DZDSKk/embed" class="reel-frame"></iframe>
+</div>
+
+<!-- SKILLS -->
+<h2 style="margin-top:50px;">Core Skills</h2>
+
+<div class="skills">
+<span>Content Creation</span>
+<span>Video Production</span>
+<span>Media Management</span>
+<span>SEO</span>
+<span>Google Ads</span>
+<span>Meta Ads</span>
+<span>Influencer Marketing</span>
+<span>Brand Strategy</span>
+<span>Campaign Execution</span>
+<span>Excel & Reporting</span>
+<span>Presentation Design</span>
+<span>Media Planning</span>
+<span>Content Calendar</span>
+</div>
 
 </div>
 
