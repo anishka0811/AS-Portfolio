@@ -1,10 +1,16 @@
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap');
+
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     background: #d9c8bb;
     color: #2b2b2b;
+    font-size: 17px;
+    line-height: 1.6;
 }
 
+/* NAV */
 .nav {
     display: flex;
     justify-content: center;
@@ -15,8 +21,12 @@ body {
 .nav a {
     text-decoration: none;
     color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
+/* HERO */
 .hero {
     width: 85%;
     margin: auto;
@@ -27,20 +37,55 @@ body {
     justify-content: space-between;
 }
 
+/* MAIN NAME */
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 52px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.1;
 }
 
+/* SECTION HEADINGS */
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+}
+
+/* BUTTON */
 .button {
     border: 1px solid #333;
     padding: 10px 16px;
     text-decoration: none;
     color: #333;
     margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
+.button:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* SECTION */
 .section {
     width: 70%;
     margin: 80px auto;
+}
+
+/* CARDS */
+.card {
+    background: #e6d6ca;
+    padding: 20px;
+    border-radius: 10px;
 }
