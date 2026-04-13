@@ -1,8 +1,23 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
+
+<style>
+.resume-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.resume-frame {
+    width: 700px;
+    height: 900px;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+</style>
+
 </head>
 
 <body>
@@ -19,9 +34,9 @@
 
 <a href="anishka-resume.pdf" class="button" target="_blank">Download Resume</a>
 
-<br><br>
-
-<iframe src="anishka-resume.pdf" width="100%" height="600px"></iframe>
+<div class="resume-container">
+<iframe src="anishka-resume.pdf" class="resume-frame"></iframe>
+</div>
 
 </div>
 
