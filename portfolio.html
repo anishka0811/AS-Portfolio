@@ -5,6 +5,19 @@
 
 <style>
 
+body {
+    background-image: url('teaboard.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* LIGHT OVERLAY FOR READABILITY */
+.overlay {
+    background: rgba(255,255,255,0.85);
+    min-height: 100vh;
+}
+
+/* GRID */
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -13,20 +26,26 @@
 
 .card {
     background: #e6d6ca;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s;
 }
 
-/* PORTRAIT REEL */
-.reel-container {
-    display: flex;
-    justify-content: center;
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* REELS GRID */
+.reels-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
     margin-top: 20px;
 }
 
 .reel-frame {
-    width: 300px;
-    height: 550px;
+    width: 100%;
+    height: 520px;
     border: none;
     border-radius: 10px;
 }
@@ -47,6 +66,8 @@
 
 <body>
 
+<div class="overlay">
+
 <div class="nav">
 <a href="index.html">Home</a>
 <a href="resume.html">Resume</a>
@@ -57,8 +78,15 @@
 <div class="section">
 <h1>Portfolio</h1>
 
+<!-- INTRO -->
 <p>
-A collection of work showcasing content strategy, influencer marketing, and performance-driven campaigns across global markets.
+I am a media and digital marketing professional with a strong foundation in storytelling, audience engagement, and performance-led content creation. I completed my Bachelor's in Journalism and Mass Communication from Bennett University (Times of India) between 2019–2022, where I developed a deep understanding of media ecosystems, content strategy, and brand communication.
+
+To further expand my global perspective, I pursued a Master's in International Media Management from Royal Holloway, University of London (2024–2025), focusing on digital transformation, international audience behaviour, and media business strategy.
+
+Alongside my academic journey, I have worked across brands, creators, and campaigns—delivering measurable results through structured content planning, audience insights, and platform-specific optimisation. I have consistently driven up to 30% growth in engagement, reach, and overall content performance.
+
+I am currently an immediate joiner, open to both full-time and contractual roles globally, and eager to contribute to teams that value creativity backed by data and execution excellence.
 </p>
 
 <!-- WORK GRID -->
@@ -67,39 +95,46 @@ A collection of work showcasing content strategy, influencer marketing, and perf
 <div class="card">
 <h3>Hiked (Bizgurukul)</h3>
 <p>
-Led social media strategy and influencer campaigns targeting Gen-Z audiences.
-Achieved up to 30% growth in engagement, reach, and impressions through performance-driven content.
+Led end-to-end social media strategy and execution for a Gen-Z focused digital education platform. Planned and managed content calendars, collaborated with influencers, and optimised short-form content for performance. Analysed engagement metrics and iterated content strategies, resulting in up to 30% growth in reach, engagement, and audience interaction. Focused heavily on platform trends, hooks, and retention strategies to maximise content visibility.
 </p>
 </div>
 
 <div class="card">
 <h3>Skylarks Charity (UK)</h3>
 <p>
-Developed content for awareness campaigns, enhancing engagement and digital visibility for community initiatives.
+Worked on creating impactful digital content to support awareness and community engagement initiatives. Developed storytelling-led posts and campaigns to highlight the organisation’s work, ensuring emotional connection and higher engagement. Contributed to strengthening the charity’s online presence and audience interaction through consistent and thoughtful content execution.
 </p>
 </div>
 
 <div class="card">
-<h3>Influencer Growth</h3>
+<h3>Influencer Growth & Strategy</h3>
 <p>
-Helped multiple influencers achieve up to 30% increase in engagement, reach, and audience growth through strategic content planning.
+Collaborated with multiple influencers to improve content positioning, audience targeting, and engagement strategies. Provided insights on content formats, posting schedules, and audience behaviour, leading to up to 30% growth in engagement and reach. Focused on building sustainable growth rather than short-term spikes through consistent content direction.
 </p>
 </div>
 
 <div class="card">
-<h3>Content & Video Strategy</h3>
+<h3>Content & Video Production</h3>
 <p>
-Created short-form video content optimised for retention, storytelling, and platform growth across Instagram and digital channels.
+Specialised in creating high-performing short-form video content tailored for platforms like Instagram. Focused on storytelling, visual hooks, pacing, and retention strategies to ensure maximum watch time and engagement. Combined creative direction with performance analytics to continuously improve output quality and results.
 </p>
 </div>
 
 </div>
 
-<!-- REEL -->
+<!-- REELS -->
 <h2 style="margin-top:50px;">Featured Work</h2>
 
-<div class="reel-container">
-<iframe src="https://www.instagram.com/p/DWMR5DZDSKk/embed" class="reel-frame"></iframe>
+<div class="reels-grid">
+
+<iframe src="https://www.instagram.com/reel/C9w2HlRSEVO/embed" class="reel-frame"></iframe>
+<iframe src="https://www.instagram.com/reel/C84i5lAJS_J/embed" class="reel-frame"></iframe>
+<iframe src="https://www.instagram.com/reel/C9pEuQ2JW_W/embed" class="reel-frame"></iframe>
+
+<iframe src="https://www.instagram.com/reel/DQywA9LEnxf/embed" class="reel-frame"></iframe>
+<iframe src="https://www.instagram.com/reel/DWaz-QajR47/embed" class="reel-frame"></iframe>
+<iframe src="https://www.instagram.com/reel/DWMR5DZDSKk/embed" class="reel-frame"></iframe>
+
 </div>
 
 <!-- SKILLS -->
@@ -119,6 +154,8 @@ Created short-form video content optimised for retention, storytelling, and plat
 <span>Presentation Design</span>
 <span>Media Planning</span>
 <span>Content Calendar</span>
+</div>
+
 </div>
 
 </div>
