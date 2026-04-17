@@ -14,7 +14,7 @@ body.portfolio {
 }
 
 body.resume {
-    background: url('resumebg-landscape.jpg') no-repeat center/cover;
+    background: url('resumebg.jpg') no-repeat center/cover;
 }
 
 body.contact {
@@ -32,7 +32,7 @@ body.contact {
     }
 
     body.resume {
-        background: url('resumebg-portrait.jpg') no-repeat center/cover;
+        background: url('resumebg.jpg') no-repeat center/cover;
     }
 
     body.contact {
