@@ -50,7 +50,10 @@ body {
 
 /* OVERLAY FOR READABILITY */
 .overlay {
-    background: rgba(255, 255, 255, 0.75);
+    background: linear-gradient(
+        rgba(255,255,255,0.6),
+        rgba(255,255,255,0.4)
+    );
     min-height: 100vh;
 }
 
