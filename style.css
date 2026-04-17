@@ -194,3 +194,14 @@ p {
 .contact-item a:hover::after {
     width: 100%;
 }
+
+.intro {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+}
+
+.intro p {
+    font-size: 19px;
+    line-height: 1.8;
+}
