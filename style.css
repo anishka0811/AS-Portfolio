@@ -1,6 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 body {
+    transition: background 0.5s ease-in-out;
+}
+
+/* DEFAULT = DESKTOP (LANDSCAPE) */
+body.home {
+    background: url('teaboard-landscape.jpg') no-repeat center/cover;
+}
+
+body.portfolio {
+    background: url('teaboard-landscape.jpg') no-repeat center/cover;
+}
+
+body.resume {
+    background: url('resumebg-landscape.jpg') no-repeat center/cover;
+}
+
+body.contact {
+    background: url('contactbg-landscape.jpg') no-repeat center/cover;
+}
+
+/* 📱 MOBILE / PORTRAIT */
+@media (max-width: 768px) {
+    body.home {
+        background: url('teaboard-portrait.jpg') no-repeat center/cover;
+    }
+
+    body.portfolio {
+        background: url('teaboard-portrait.jpg') no-repeat center/cover;
+    }
+
+    body.resume {
+        background: url('resumebg-portrait.jpg') no-repeat center/cover;
+    }
+
+    body.contact {
+        background: url('contactbg-portrait.jpg') no-repeat center/cover;
+    }
+}
+
+body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     background-size: cover;
