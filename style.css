@@ -203,7 +203,7 @@ p {
 }
 
 .intro p {
-    font-size: 18px;
-    line-height: 1.8;
-    text-align: justify;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
 }
