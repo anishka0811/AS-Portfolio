@@ -196,12 +196,13 @@ p {
 }
 
 .intro {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
-    margin: 0 auto 50px auto;
+    margin: 20px auto 60px auto;
+    text-align: left;
 }
 
 .intro p {
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.8;
 }
